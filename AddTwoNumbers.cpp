@@ -66,7 +66,6 @@ public:
                 {
                     result.push_back(1);
                 }
-                //std::reverse(result.begin(), result.end());
                 return result;
             }
             else
@@ -91,7 +90,6 @@ public:
                 {
                     result.push_back(1);
                 }
-                //std::reverse(result.begin(), result.end());
                 return result;
             }
         }
