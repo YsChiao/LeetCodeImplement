@@ -21,10 +21,10 @@ using namespace std;
 
 class Solution {
 public:
-
     vector<int> twoSum(vector<int>& nums, int target)
     {
         vector<std::pair<int,int>> data;
+        vector<int> result;
         for (size_t i = 0; i < nums.size(); i++)
         {
             std::pair<int,int> temp(nums.at(i),i);
@@ -51,9 +51,6 @@ public:
         }
         return result;
     }
-
-private:
-    vector<int> result;
 };
 
 
