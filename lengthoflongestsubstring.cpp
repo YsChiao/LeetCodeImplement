@@ -36,8 +36,8 @@ public:
         string str;
         
         string substr;
-        unordered_map<char,int> hmap;
-        unordered_map<char,int>::const_iterator  it;
+        std::unordered_map<char,int> hmap;
+        std::unordered_map<char,int>::const_iterator  it;
 
 
         while(pos != s.length())
